@@ -1,0 +1,195 @@
+
+/* GENERAL STYLES */
+
+body {
+	margin: 0;
+	background: transparent;
+}
+a {
+	color: inherit; 
+} 
+
+.centrar{
+	display: inline-block;
+}
+
+.carousel-item{
+	min-height: 950px;
+}
+
+.section-content{
+	padding: 5% 15%;
+}
+.white{
+	color: #ffffff;
+}
+hr.white{
+	border: #ffffff 1px solid;
+    opacity: 0.05;
+}
+/* MAIN */
+
+.main{
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	background: #000000;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in;
+}
+
+.centrar {
+	margin-top: 5%;
+}
+.logo {
+	background-color: #6E1919;
+	width: 400px;
+	height: 400px;
+	border-radius: 100%;
+	margin: auto;
+}
+
+.slogan{
+    color: #ffffff;
+    font-style: italic;
+}
+
+.main-menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu-item{
+	list-style-type: none;
+	float: left;
+	display: block;
+	margin: 10px;
+	padding: 20px;
+	border-radius: 15%;
+}
+
+.menu-item:hover {
+	transition-duration: 0.5s;
+}
+
+.menu-item i {
+	font-size: 4.3em;
+	transition-duration: 0.5s;
+}
+
+.menu-me{
+	color: #ffc107;
+	background-color: transparent;
+	transition-duration: 0.5s;
+}
+
+.menu-me:hover {
+	color: #000000;
+	background-color: #ffc107;
+}
+.menu-prog{
+	color: #28a745;
+	background-color: transparent; 
+}
+
+.menu-prog:hover {
+	color: #ffffff;
+	background-color: #28a745; 
+}
+
+.menu-music{
+	color: #004085;
+	background-color: transparent; 
+}
+
+.menu-music:hover {
+	color: #ffffff;
+	background-color: #004085; 
+}
+
+.menu-contact{
+	color: #6E1919;
+	background-color: transparent; 
+}
+
+.menu-contact:hover {
+	color: #ffffff;
+	background-color: #6E1919; 
+}
+
+.menu-text{
+	text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 1.3em !important;
+    margin: 15px 0 0 0;
+}
+
+/* Final Main*/
+
+#contenido{
+	position: absolute;
+	width: 100%;
+}
+/* Me */
+
+.me {
+	background: #ffc107;
+	width: 100%;
+	min-height: 950px;
+}
+
+/* Final Me */
+
+/* Prog */
+.prog{
+	background: #28a745;
+	min-height: 950px;
+	width: 100%
+}
+
+.list-icon {
+    float: left;
+    margin: 5px 20px;
+    font-size: 2em;
+}
+.list-text{
+	font-size: 1.5em;
+}
+/* Final Prog */
+/* Music */
+.music{
+	background: #004085;
+	min-height: 950px;
+	width: 100%
+}
+/* Final Music */
+/* Contact */
+.contact{
+	background: #6E1919;
+	min-height: 950px;
+	width: 100%
+}
+
+.contact-card{
+	height: 100%;
+}
+.contact-wrapper{
+	margin: 10% 20%;
+}
+.contact-element{
+	margin: 10% 0;
+}
+.contact-icon{
+	font-size: 2em;
+	float: right;
+}
+
+.form-message{
+	height: 200px;
+}
+ 
+
+/* Final contact */
