@@ -3,19 +3,21 @@ $(document).ready(function(){
 	//Background Main
 	$(".main-menu").hover(function(){
 		$(".menu-me").hover(function(){
-			$(".main").css("background", "url(img/new/main-me.jpg) no-repeat center center fixed");
+			$(".main").css("background", "url(img/new/main-me.jpg)")
+			$(".main").css("background-repeat", "no-repeat");
+			$(".main").css("background-position","center");
 		});
 
 		$(".menu-prog").hover(function(){
-			$(".main").css("background", "url(img/new/main-prog.jpg) no-repeat center center fixed");
+			$(".main").css("background", "url(img/new/main-prog.jpg) no-repeat center center");
 		});
 
 		$(".menu-music").hover(function(){
-			$(".main").css("background", "url(img/new/main-music.jpg) no-repeat center center fixed");
+			$(".main").css("background", "url(img/new/main-music.jpg) no-repeat center center");
 		});
 
 		$(".menu-contact").hover(function(){
-			$(".main").css("background", "url(img/new/main-contact.jpg) no-repeat center center fixed");
+			$(".main").css("background", "url(img/new/main-contact.jpg) no-repeat center center");
 		});
 	});
 	
