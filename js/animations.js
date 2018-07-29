@@ -21,9 +21,7 @@ $(document).ready(function(){
 		});
 	});
 	
-	//reset
-
-
+	
 
 	//Menu Main
 
@@ -62,6 +60,39 @@ $(document).ready(function(){
 		$(".carousel-item").removeClass("active");
 		$(".carousel-contact").addClass("active");
 	});
+
+	//custom scrollspy
+
+	window.setInterval(customScrollSpy(), 500);
+
+	function customScrollSpy(){
+		if($(".carousel-me").hasClass("active") === true){
+			$(".nav-first").css("color", "#ffc107");
+			$(".nav-second").css("color", "#ffffff");
+			$(".nav-third").css("color", "#ffffff");
+			$(".nav-fourth").css("color", "#ffffff");
+		}
+		else if($(".carousel-prog").hasClass("active") === true){
+			$(".nav-first").css("color", "#ffffff");
+			$(".nav-second").css("color", "#28a745;");
+			$(".nav-third").css("color", "#ffffff");
+			$(".nav-fourth").css("color", "#ffffff");
+		}
+		else if($(".carousel-prog").hasClass("active") === true){
+			$(".nav-first").css("color", "#ffffff");
+			$(".nav-second").css("color", "#ffffff");
+			$(".nav-third").css("color", "#004085");
+			$(".nav-fourth").css("color", "#ffffff");
+		}
+		else if($(".carousel-prog").hasClass("active") === true){
+			$(".nav-first").css("color", "#ffffff");
+			$(".nav-second").css("color", "#ffffff");
+			$(".nav-third").css("color", "#ffffff");
+			$(".nav-fourth").css("color", "#6E1919");
+		}
+	}
+	
+
 
 	//smooth scroll
 
