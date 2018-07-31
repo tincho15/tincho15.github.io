@@ -43,8 +43,8 @@ hr.white{
 }
 .logo {
 	background-color: #6E1919;
-	width: 400px;
-	height: 400px;
+	width: 200px;
+	height: 200px;
 	border-radius: 100%;
 	margin: auto;
 }
@@ -58,7 +58,7 @@ hr.white{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding: 0;
+    padding:0 0 100px 0;
     margin: 0;
 }
 .menu-item{
@@ -133,6 +133,13 @@ hr.white{
 	position: absolute;
 	width: 100%;
 }
+
+/* nav */
+nav{
+	
+}
+/* final nav */
+
 /* Me */
 
 .me {
