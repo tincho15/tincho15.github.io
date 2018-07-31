@@ -3,25 +3,25 @@ $(document).ready(function(){
 	//Background Main
 	$(".main-menu").hover(function(){
 		$(".menu-me").hover(function(){
-			$(".main").css("background", "url(img/new/main-me.jpg) no-repeat center center fixed");
+			$(".main").css("background", "url(img/new/main-me.jpg)")
+			$(".main").css("background-repeat", "no-repeat");
+			$(".main").css("background-position","center");
 		});
 
 		$(".menu-prog").hover(function(){
-			$(".main").css("background", "url(img/new/main-prog.jpg) no-repeat center center fixed");
+			$(".main").css("background", "url(img/new/main-prog.jpg) no-repeat center center");
 		});
 
 		$(".menu-music").hover(function(){
-			$(".main").css("background", "url(img/new/main-music.jpg) no-repeat center center fixed");
+			$(".main").css("background", "url(img/new/main-music.jpg) no-repeat center center");
 		});
 
 		$(".menu-contact").hover(function(){
-			$(".main").css("background", "url(img/new/main-contact.jpg) no-repeat center center fixed");
+			$(".main").css("background", "url(img/new/main-contact.jpg) no-repeat center center");
 		});
 	});
 	
-	//reset
-
-
+	
 
 	//Menu Main
 
@@ -60,6 +60,39 @@ $(document).ready(function(){
 		$(".carousel-item").removeClass("active");
 		$(".carousel-contact").addClass("active");
 	});
+
+	//custom scrollspy
+
+	window.setInterval(customScrollSpy(), 500);
+
+	function customScrollSpy(){
+		if($(".carousel-me").hasClass("active") === true){
+			$(".nav-first").css("color", "#ffc107");
+			$(".nav-second").css("color", "#ffffff");
+			$(".nav-third").css("color", "#ffffff");
+			$(".nav-fourth").css("color", "#ffffff");
+		}
+		else if($(".carousel-prog").hasClass("active") === true){
+			$(".nav-first").css("color", "#ffffff");
+			$(".nav-second").css("color", "#28a745;");
+			$(".nav-third").css("color", "#ffffff");
+			$(".nav-fourth").css("color", "#ffffff");
+		}
+		else if($(".carousel-prog").hasClass("active") === true){
+			$(".nav-first").css("color", "#ffffff");
+			$(".nav-second").css("color", "#ffffff");
+			$(".nav-third").css("color", "#004085");
+			$(".nav-fourth").css("color", "#ffffff");
+		}
+		else if($(".carousel-prog").hasClass("active") === true){
+			$(".nav-first").css("color", "#ffffff");
+			$(".nav-second").css("color", "#ffffff");
+			$(".nav-third").css("color", "#ffffff");
+			$(".nav-fourth").css("color", "#6E1919");
+		}
+	}
+	
+
 
 	//smooth scroll
 
