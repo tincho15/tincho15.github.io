@@ -233,6 +233,26 @@ hr.white{
     text-decoration: none !important;
 }
 
+.myself{
+	padding: 4rem 2rem;
+}
+.music-icon-section{
+	margin-top: 100px;
+}
+.music-icon{
+    height: 270px;
+    border-radius: 50%;
+    background: #e9ecef;
+    width: 100%;
+}
+
+.music-icon:hover {
+
+}
+
+.music-icon img{
+	width: 75%;
+}
 
 
 /* Final Music */
@@ -256,6 +276,12 @@ hr.white{
 
 /* Final contact */
 
+
+/* modal fix*/
+
+.modal-dialog{
+	max-width: 700px;
+}
 /* Media query exceptions*/
 
 @media (max-width: 991.98px) { 
