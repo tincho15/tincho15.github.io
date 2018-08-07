@@ -122,5 +122,13 @@ $(document).ready(function(){
     }
 }
 });
+  
+  //carousel swipe
+  $("#myCarousel").swiperight(function() {
+      $(this).carousel('prev');
+    });
+   $("#myCarousel").swipeleft(function() {
+      $(this).carousel('next');
+   });
 
 });
