@@ -34,6 +34,9 @@ hr.white{
     opacity: 0.05;
 }
 
+.jumbotron{
+	height: 100%;
+}
 /* MAIN */
 
 .main{
