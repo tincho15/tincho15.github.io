@@ -276,6 +276,22 @@ hr.white{
 
 /* Final contact */
 
+/* footer */
+
+footer{
+	padding: 50px;
+	background: #24292e;
+	font-family: sans-serif;
+	font-size: 1em;
+	color: #ffffff;
+}
+footer img{ 
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	margin: 15px;
+}
+
 
 /* modal fix*/
 
